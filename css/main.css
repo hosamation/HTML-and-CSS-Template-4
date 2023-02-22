@@ -1,0 +1,28 @@
+/* Start Global Roles */
+/* End Global Roles */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.page {
+  min-height: 100vh;
+  background-color: #f1f5f9;
+}
