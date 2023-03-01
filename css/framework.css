@@ -1,3 +1,11 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
 /* Start Global Rules */
 .container {
   padding: 0 15px;
@@ -34,6 +42,9 @@
 .p-10 {
   padding: 10px;
 }
+.p-15 {
+  padding: 15px;
+}
 .p-20 {
   padding: 20px;
 }
@@ -61,6 +72,9 @@
 .txt-c {
   text-align: center;
 }
+.fs-12 {
+  font-size: 12px;
+}
 .fs-14 {
   font-size: 14px;
 }
@@ -74,3 +88,15 @@
   -o-border-radius: 6px;
 }
 /* End Border */
+/* Start Width & Hight */
+.w-full {
+  width: 100%;
+}
+/* End Width & Hight */
+/* Start Components */
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* End Components */
