@@ -29,6 +29,18 @@ a {
 ul {
   list-style: none;
 }
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--blue-alt-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--blue-alt-color);
+}
 .page {
   min-height: 100vh;
   background-color: #f1f5f9;
@@ -167,5 +179,24 @@ header .icons img {
   width: 32px;
   height: 32px;
   margin-left: 15px;
+}
+main h1 {
+  margin: 20px 20px 40px;
+}
+main h1::before,
+main h1::after {
+  content: "";
+  position: absolute;
+  height: 6px;
+  bottom: -10px;
+  left: 0;
+}
+main h1::before {
+  width: 120px;
+  background-color: #fff;
+}
+main h1::after {
+  width: 40px;
+  background-color: #000;
 }
 /* End Content Head */
