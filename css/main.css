@@ -1,5 +1,4 @@
 /* Start Global Roles */
-/* End Global Roles */
 *,
 *::before,
 *::after {
@@ -26,3 +25,78 @@ ul {
   min-height: 100vh;
   background-color: #f1f5f9;
 }
+/* End Global Roles */
+/* Start Sidebar */
+aside {
+  width: 250px;
+  box-shadow: 0 0 10px #ddd;
+}
+aside > h3 {
+  margin-bottom: 50px;
+}
+aside > h3::before,
+aside > h3::after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+aside > h3::before {
+  width: 80px;
+  height: 2px;
+  bottom: -20px;
+}
+aside > h3::after {
+  width: 20px;
+  height: 20px;
+  bottom: -29px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+aside ul {
+}
+aside ul li {
+}
+aside ul li a {
+  margin-bottom: 5px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+aside ul li a:active,
+aside ul li a:hover {
+  background-color: #f6f6f6;
+}
+aside ul li a span {
+  font-size: 14px;
+  margin-left: 10px;
+}
+@media (max-width: 767px) {
+  aside {
+    width: 62px;
+    padding: 10px;
+  }
+  aside > h3 {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+  aside > h3::before,
+  aside > h3::after {
+    display: none;
+  }
+  aside ul li a span {
+    display: none;
+  }
+}
+/* End Sidebar */
