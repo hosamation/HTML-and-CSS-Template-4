@@ -37,6 +37,9 @@
 .align-center {
   align-items: center;
 }
+.space-between {
+  justify-content: space-between;
+}
 .d-grid {
   display: grid;
 }
@@ -65,19 +68,40 @@
 .p-20 {
   padding: 20px;
 }
+.m-0 {
+  margin: 0;
+}
 .m-20 {
   margin: 20px;
 }
-.mt {
+.mt-0 {
   margin-top: 0;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
 }
 /* End Padding & Margin */
 /* Start Colors */
 .bg-white {
   background-color: #fff;
 }
+.bg-eee {
+  background-color: #eee;
+}
 .c-black {
   color: #000;
+}
+.c-gray {
+  color: var(--grey-color);
 }
 /* End Colors */
 /* Start Positions */
