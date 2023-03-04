@@ -97,8 +97,14 @@
 .bg-eee {
   background-color: #eee;
 }
+.bg-blue {
+  background-color: var(--blue-alt-color);
+}
 .c-black {
   color: #000;
+}
+.c-white {
+  color: #fff;
 }
 .c-gray {
   color: var(--grey-color);
@@ -107,6 +113,9 @@
 /* Start Positions */
 .p-relative {
   position: relative;
+}
+.p-absolute {
+  position: absolute;
 }
 /* End Positions */
 /* Start Font */
@@ -119,6 +128,9 @@
 .fs-14 {
   font-size: 14px;
 }
+.fs-15 {
+  font-size: 15px;
+}
 @media (max-width: 767px) {
   .txt-c-mobile {
     text-align: center;
@@ -126,6 +138,9 @@
 }
 /* End Font */
 /* Start Border */
+.b-none {
+  border: none;
+}
 .rad-6 {
   border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -152,11 +167,22 @@
 .w-full {
   width: 100%;
 }
+.w-fit {
+  width: fit-content;
+}
 /* End Width & Hight */
 /* Start Components */
 .between-flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 /* End Components */
