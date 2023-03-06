@@ -34,6 +34,9 @@
 .d-flex {
   display: flex;
 }
+.f-wrap {
+  flex-wrap: wrap;
+}
 .align-center {
   align-items: center;
 }
@@ -86,6 +89,12 @@
 .mt-20 {
   margin-top: 20px;
 }
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -124,6 +133,9 @@
 .c-green {
   color: var(--green-color);
 }
+.c-red {
+  color: var(--red-color);
+}
 
 /* End Colors */
 /* Start Positions */
@@ -141,11 +153,17 @@
 .fs-12 {
   font-size: 12px;
 }
+.fs-13 {
+  font-size: 13px;
+}
 .fs-14 {
   font-size: 14px;
 }
 .fs-15 {
   font-size: 15px;
+}
+.fs-25 {
+  font-size: 25px;
 }
 .fw-bold {
   font-weight: bold;
