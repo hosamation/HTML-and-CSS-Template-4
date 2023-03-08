@@ -484,6 +484,19 @@ main h1::after {
   border-left: 2px solid var(--red-color);
 }
 /* End Reminders */
+/* Start Latest Post */
+.latest-post .avatar {
+  width: 48px;
+  height: 48px;
+}
+.latest-post .post-content {
+  min-height: 140px;
+  text-transform: capitalize;
+  line-height: 1.8;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+/* End Latest Post */
 /* Start Animation */
 @keyframes change-color {
   from {
