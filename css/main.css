@@ -618,9 +618,30 @@ main h1::after {
   resize: none;
   min-height: 150px;
 }
+.settings-page .email {
+  display: inline-flex;
+  width: calc(100% - 80px);
+}
+.settings-page .sec-box {
+  padding-bottom: 15px;
+}
+.settings-page .sec-box:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+.settings-page .sec-box .btn {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.settings-page .sec-box .btn {
+  background-color: var(--blue-alt-color);
+}
 .toggle-checkbox {
   appearance: none;
   -webkit-appearance: none;
+  display: none;
 }
 .toggle-switch {
   width: 78px;
