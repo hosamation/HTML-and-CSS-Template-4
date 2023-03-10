@@ -94,7 +94,7 @@ aside ul li a {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
-aside ul li a:active,
+aside ul li a.active,
 aside ul li a:hover {
   background-color: #f6f6f6;
 }
