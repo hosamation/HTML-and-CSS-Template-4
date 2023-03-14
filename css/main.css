@@ -867,6 +867,45 @@ main h1::after {
   color: #bbb;
 }
 /* End Sittings */
+/* Start Profile Page */
+.profile-page .avatar-box {
+}
+@media (max-width: 767px) {
+  .profile-page .overview {
+    flex-direction: column;
+  }
+}
+.profile-page .avatar-box {
+  width: 300px;
+}
+@media (min-width: 767px) {
+  .profile-page .avatar-box {
+    border-right: 1px solid #eee;
+  }
+}
+.profile-page .avatar-box > img {
+  width: 120px;
+  height: 120px;
+}
+.profile-page .avatar-box .level {
+  width: 70%;
+  height: 6px;
+  margin: auto;
+  overflow: auto;
+}
+.profile-page .avatar-box .level span {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: var(--blue-color);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+/* End Profile Page */
 /* Start Animation */
 @keyframes change-color {
   from {
