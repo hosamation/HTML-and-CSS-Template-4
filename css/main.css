@@ -878,7 +878,7 @@ main h1::after {
 .profile-page .avatar-box {
   width: 300px;
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .profile-page .avatar-box {
     border-right: 1px solid #eee;
   }
@@ -891,7 +891,7 @@ main h1::after {
   width: 70%;
   height: 6px;
   margin: auto;
-  overflow: auto;
+  overflow: hidden;
 }
 .profile-page .avatar-box .level span {
   position: absolute;
@@ -923,6 +923,22 @@ main h1::after {
 }
 .profile-page .info-box h4 {
   font-weight: normal;
+}
+.profile-page .info-box .toggle-switch {
+  height: 20px;
+}
+@media (max-width: 767px) {
+  .profile-page .info-box .toggle-switch {
+    margin: auto;
+  }
+}
+.profile-page .info-box .toggle-switch::before {
+  width: 12px;
+  height: 12px;
+  font-size: 8px;
+}
+.profile-page .info-box .toggle-checkbox:checked + .toggle-switch::before {
+  left: 62px;
 }
 /* End Profile Page */
 /* Start Animation */
