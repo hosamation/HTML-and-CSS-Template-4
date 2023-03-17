@@ -1245,6 +1245,16 @@ main h1::after {
 }
 /* End Friends Page */
 /* Start Files Page */
+.files-page {
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+@media (max-width: 767px) {
+  .files-page {
+    flex-direction: column;
+    align-items: normal;
+  }
+}
 .files-page .files-stats {
   min-width: 260px;
 }
@@ -1283,6 +1293,29 @@ main h1::after {
 .files-page .files-stats .upload:hover i {
   animation: go-up 0.8s infinite;
   -webkit-animation: go-up 0.8s infinite;
+}
+.files-page .files-content {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  flex: 1;
+}
+.files-page .files-content img {
+  width: 64px;
+  height: 64px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.files-page .files-content .file:hover img {
+  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+}
+.files-page .files-content .info {
+  border-top: 1px solid #eee;
 }
 /* End Files Page */
 /* Start Animation */
